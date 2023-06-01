@@ -1,0 +1,9 @@
+datamart_ddl.sql - добавил ограничение от 1 до 5.
+
+datamart_query.sql - измнились первые 10 строк, тк исправил ошибку с NULL.
+
+orders_view.sql - заменил конструкцию на CREATE OR REPLACE VIEW.
+
+tmp_rfm_frequency.sql , tmp_rfm_monetary_value.sql , tmp_rfm_recency.sql - везде поставил на NULL затычки которые будут давать после ранжирования 1.
+
+views.sql - заменил таблицы на представления.
